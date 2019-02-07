@@ -1,5 +1,7 @@
 var runGame = function()
 {
-  var button1 = document.getElementById("open")
-  button1.innerText = "First Question"
+  var openingText = document.getElementById("open")
+  openingText.innerText = "First Question"
+  var button1 = document.getElementById("startButton")
+  button1.delete()
 }
