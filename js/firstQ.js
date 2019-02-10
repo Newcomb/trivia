@@ -96,5 +96,5 @@ var wrong3 = function()
 var right3 = function()
 {
   counter += 1
-  document.write('Correct! O was the right answer. '\n' You got ' + counter +' correct!')
+  document.write('Correct! O was the right answer. \n You got ' + counter +' correct!')
 }
