@@ -90,7 +90,7 @@ var right2 = function()
 
 var wrong3 = function()
 {
-  document.write("Incorrect: The right answer was o. Thanks for playing!")
+  document.write("Incorrect: The right answer was o. Thanks for playing!" + ' correct!')
 }
 
 var right3 = function()
