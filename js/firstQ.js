@@ -15,7 +15,14 @@ var runGame = function()
   button3.innerHTML = "7";
 }
 
-var wrong=function()
+var wrong = function()
 {var openingText=document.getElementById("open");
-openingText.innerText="Spinach is higher in what element?";
+openingText.innerText="Spinach is high in what element?";
+}
+
+var right = function()
+{
+  var openingText=document.getElementById("open");
+  openingText.innerText="Spinach is high in what element?";
+
 }
