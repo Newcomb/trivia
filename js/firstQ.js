@@ -1,4 +1,4 @@
-
+var counter = 0
 var runGame = function()
 {
   var openingText = document.getElementById("open");
@@ -48,6 +48,8 @@ var right = function()
   var button3 = document.getElementById("answer3");
   button3.onclick = function() {wrong2()};
   button3.innerHTML = "magnesium"
+  counter += 1
+  return counter
 }
 
 var wrong2 = function()
@@ -82,6 +84,8 @@ var right2 = function()
   var button3 = document.getElementById("answer3");
   button3.onclick = function() {right3()};
   button3.innerHTML = "o"
+  counter += 1
+  return counter
 }
 
 var wrong3 = function()
@@ -91,5 +95,6 @@ var wrong3 = function()
 
 var right3 = function()
 {
-  document.write("Correct! Thanks for playing!")
+  counter += 1
+  document.write("Correct! Thanks for playing!" + counter)
 }
