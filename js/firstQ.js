@@ -18,6 +18,8 @@ var runGame = function()
 
 var wrong = function()
 {
+var para = document.getElementById("check");
+para.innerText = "Incorrect: The right answer was 7.";
 var openingText=document.getElementById("open");
 openingText.innerText="Spinach is high in what element?";
 var button1 = document.getElementById("answer1");
@@ -33,6 +35,8 @@ button3.innerHTML = "magnesium"
 
 var right = function()
 {
+  var para = document.getElementById("check");
+  para.innerText = "Correct!";
   var openingText=document.getElementById("open");
   openingText.innerText="Spinach is high in what element?";
   var button1 = document.getElementById("answer1");
@@ -47,7 +51,10 @@ var right = function()
 }
 
 var wrong2 = function()
-{var openingText=document.getElementById("open");
+{
+  var para = document.getElementById("check");
+  para.innerText = "Incorrect: The right answer was iron.";
+  var openingText=document.getElementById("open");
 openingText.innerText="On a computer keyboard, what letter is between I and P?";
 var button1 = document.getElementById("answer1");
 button1.onclick = function() {wrong3()};
@@ -62,6 +69,8 @@ button3.innerHTML = "o"
 
 var right2 = function()
 {
+  var para = document.getElementById("check");
+  para.innerText = "Correct!";
   var openingText=document.getElementById("open");
   openingText.innerText="On a computer keyboard, what letter is between I and P?";
   var button1 = document.getElementById("answer1");
@@ -77,10 +86,10 @@ var right2 = function()
 
 var wrong3 = function()
 {
-  document.write("Incorrect: The right answer was o \n Thanks for playing!")
+  document.write("Incorrect: The right answer was o. Thanks for playing!")
 }
 
 var right3 = function()
 {
-  document.write("Correct! \n Thanks for playing!")
+  document.write("Correct! Thanks for playing!")
 }
