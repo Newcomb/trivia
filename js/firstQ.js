@@ -77,10 +77,10 @@ var right2 = function()
 
 var wrong3 = function()
 {
-  document.write("")
+  document.write("Incorrect: The right answer was o \n Thanks for playing!")
 }
 
 var right3 = function()
 {
-  document.write("")
+  document.write("Correct! \n Thanks for playing!")
 }
