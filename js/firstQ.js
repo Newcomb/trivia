@@ -52,13 +52,13 @@ var wrong2 = function()
 {var openingText=document.getElementById("open");
 openingText.innerText="On a computer keyboard, what letter is between I and P?";
 var button1 = document.getElementById("answer1");
-button1.onclick = function() {finalScreen()};
+button1.onclick = function() {wrong3()};
 button1.innerHTML = "l";
 var button2 = document.getElementById("answer2");
-button2.onclick = function() {finalScreen()};
+button2.onclick = function() {wrong3()};
 button2.innerHTML = "k";
 var button3 = document.getElementById("answer3");
-button3.onclick = function() {finalScreen()};
+button3.onclick = function() {right3()};
 button3.innerHTML = "o"
 }
 
@@ -67,12 +67,22 @@ var right2 = function()
   var openingText=document.getElementById("open");
   openingText.innerText="On a computer keyboard, what letter is between I and P?";
   var button1 = document.getElementById("answer1");
-  button1.onclick = function() {finalScreen()};
+  button1.onclick = function() {wrong3()};
   button1.innerHTML = "l";
   var button2 = document.getElementById("answer2");
-  button2.onclick = function() {finalScreen()};
+  button2.onclick = function() {wrong3()};
   button2.innerHTML = "k";
   var button3 = document.getElementById("answer3");
-  button3.onclick = function() {finalScreen()};
+  button3.onclick = function() {right3()};
   button3.innerHTML = "o"
+}
+
+var wrong3 = function()
+{
+  document.write("")
+}
+
+var right3 = function()
+{
+  document.write("")
 }
