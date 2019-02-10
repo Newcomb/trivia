@@ -36,7 +36,7 @@ button3.innerHTML = "magnesium"
 var right = function()
 {
   var para = document.getElementById("check");
-  para.innerText = "Correct! 7 was the right answer";
+  para.innerText = "Correct! 7 was the right answer.";
   var openingText=document.getElementById("open");
   openingText.innerText="Spinach is high in what element?";
   var button1 = document.getElementById("answer1");
@@ -90,7 +90,7 @@ var right2 = function()
 
 var wrong3 = function()
 {
-  document.write("Incorrect: The right answer was o. Thanks for playing!" + ' correct!')
+  document.write("Incorrect: The right answer was o. Thanks for playing!" + 'You got ' + counter +' correct!')
 }
 
 var right3 = function()
