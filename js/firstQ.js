@@ -7,6 +7,8 @@ var runGame = function()
   var kentucky = document.getElementById("questionSpot");
   kentucky.innerText = "How many states border Kentucky?";
   var button1 = document.createElement("button");
-  button1.setAttribute(text = "")
+  var buttonAnswer = document.createTextNode(text = "7")
+  button1.appendChild(buttonAnswer)
+  
 
 }
