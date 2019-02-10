@@ -4,7 +4,7 @@ var runGame = function()
   openingText.innerText = "First Question";
   var buttonStart = document.getElementById("startButton");
   buttonStart.remove();
-  var kentucky = document.getElementByID("questionSpot");
+  var kentucky = document.getElementById("questionSpot");
   kentucky.innerText = "How many states border Kentucky?";
   var button1 = document.createElement("button");
   button1.setAttribute(text = "")
