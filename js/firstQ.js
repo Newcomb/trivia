@@ -1,3 +1,4 @@
+
 var runGame = function()
 {
   var openingText = document.getElementById("open");
@@ -18,11 +19,28 @@ var runGame = function()
 var wrong = function()
 {var openingText=document.getElementById("open");
 openingText.innerText="Spinach is high in what element?";
+var button1 = document.getElementById("answer1");
+button1.onclick = function() {right2()};
+button1.innerHTML = "iron";
+var button2 = document.getElementById("answer2");
+button2.onclick = function() {wrong2()};
+button2.innerHTML = "potassium";
+var button3 = document.getElementById("answer3");
+button3.onclick = function() {wrong2()};
+button3.innerHTML = "magnesium"
 }
 
 var right = function()
 {
   var openingText=document.getElementById("open");
   openingText.innerText="Spinach is high in what element?";
-
+  var button1 = document.getElementById("answer1");
+  button1.onclick = function() {right2()};
+  button1.innerHTML = "iron";
+  var button2 = document.getElementById("answer2");
+  button2.onclick = function() {wrong2()};
+  button2.innerHTML = "potassium";
+  var button3 = document.getElementById("answer3");
+  button3.onclick = function() {wrong2()};
+  button3.innerHTML = "magnesium"
 }
