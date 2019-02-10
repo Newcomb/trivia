@@ -17,7 +17,9 @@ var runGame = function()
 }
 
 var wrong = function()
-{var openingText=document.getElementById("open");
+{
+document.write("Incorrect: The right answer was 7")
+var openingText=document.getElementById("open");
 openingText.innerText="Spinach is high in what element?";
 var button1 = document.getElementById("answer1");
 button1.onclick = function() {right2()};
@@ -32,6 +34,7 @@ button3.innerHTML = "magnesium"
 
 var right = function()
 {
+  document.write("Correct!")
   var openingText=document.getElementById("open");
   openingText.innerText="Spinach is high in what element?";
   var button1 = document.getElementById("answer1");
@@ -43,4 +46,33 @@ var right = function()
   var button3 = document.getElementById("answer3");
   button3.onclick = function() {wrong2()};
   button3.innerHTML = "magnesium"
+}
+
+var wrong2 = function()
+{var openingText=document.getElementById("open");
+openingText.innerText="On a computer keyboard, what letter is between I and P?";
+var button1 = document.getElementById("answer1");
+button1.onclick = function() {finalScreen()};
+button1.innerHTML = "l";
+var button2 = document.getElementById("answer2");
+button2.onclick = function() {finalScreen()};
+button2.innerHTML = "k";
+var button3 = document.getElementById("answer3");
+button3.onclick = function() {finalScreen()};
+button3.innerHTML = "o"
+}
+
+var right2 = function()
+{
+  var openingText=document.getElementById("open");
+  openingText.innerText="On a computer keyboard, what letter is between I and P?";
+  var button1 = document.getElementById("answer1");
+  button1.onclick = function() {finalScreen()};
+  button1.innerHTML = "l";
+  var button2 = document.getElementById("answer2");
+  button2.onclick = function() {finalScreen()};
+  button2.innerHTML = "k";
+  var button3 = document.getElementById("answer3");
+  button3.onclick = function() {finalScreen()};
+  button3.innerHTML = "o"
 }
