@@ -36,7 +36,7 @@ button3.innerHTML = "magnesium"
 var right = function()
 {
   var para = document.getElementById("check");
-  para.innerText = "Correct!";
+  para.innerText = "Correct! 7 was the right answer";
   var openingText=document.getElementById("open");
   openingText.innerText="Spinach is high in what element?";
   var button1 = document.getElementById("answer1");
@@ -72,7 +72,7 @@ button3.innerHTML = "o"
 var right2 = function()
 {
   var para = document.getElementById("check");
-  para.innerText = "Correct!";
+  para.innerText = "Correct! Iron was the right answer.";
   var openingText=document.getElementById("open");
   openingText.innerText="On a computer keyboard, what letter is between I and P?";
   var button1 = document.getElementById("answer1");
@@ -96,5 +96,5 @@ var wrong3 = function()
 var right3 = function()
 {
   counter += 1
-  document.write("Correct! Thanks for playing!" + counter)
+  document.write("Correct! O was the right answer. "\n" You got " + counter +" correct!")
 }
