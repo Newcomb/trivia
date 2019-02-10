@@ -18,7 +18,6 @@ var runGame = function()
 
 var wrong = function()
 {
-document.write("Incorrect: The right answer was 7")
 var openingText=document.getElementById("open");
 openingText.innerText="Spinach is high in what element?";
 var button1 = document.getElementById("answer1");
@@ -34,7 +33,6 @@ button3.innerHTML = "magnesium"
 
 var right = function()
 {
-  document.write("Correct!")
   var openingText=document.getElementById("open");
   openingText.innerText="Spinach is high in what element?";
   var button1 = document.getElementById("answer1");
