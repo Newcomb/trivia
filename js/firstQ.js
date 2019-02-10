@@ -11,7 +11,7 @@ var runGame = function()
   button2.onclick = function() {wrong()};
   button2.innerHTML = "6";
   var button3 = document.getElementById("answer3");
-  button1.onclick = function() {right()};
+  button3.onclick = function() {right()};
   button3.innerHTML = "7";
 }
 
