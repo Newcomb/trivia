@@ -5,13 +5,13 @@ var runGame = function()
   var buttonStart = document.getElementById("startButton");
   buttonStart.remove();
   var button1 = document.getElementById("answer1");
-  button1.setAttribute(onclick,wrong());
+  button1.onclick = function() {wrong()};
   button1.innerHTML = "5";
   var button2 = document.getElementById("answer2");
-  button2.setAttribute(onclick,wrong());
+  button2.onclick = function() {wrong()};
   button2.innerHTML = "6";
   var button3 = document.getElementById("answer3");
-  button1.setAttribute(onclick,right());
+  button1.onclick = function() {right()};
   button3.innerHTML = "7";
 }
 
