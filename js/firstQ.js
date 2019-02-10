@@ -90,11 +90,13 @@ var right2 = function()
 
 var wrong3 = function()
 {
-  document.write("Incorrect: The right answer was o. Thanks for playing!" + 'You got ' + counter +' correct!')
+  document.write("Incorrect: The right answer was o. Thanks for playing!" + ' You got ' + counter +' correct!')
+  document.innerHTML("Thanks for playing!" + ' You got ' + counter +' correct!'")
 }
 
 var right3 = function()
 {
   counter += 1
-  document.write('Correct! O was the right answer.' + "\n" +'You got ' + counter +' correct!')
+  document.write('Correct! O was the right answer. You got ' + counter +' correct!')
+    document.innerHTML("Thanks for playing!" + ' You got ' + counter +' correct!'")
 }
